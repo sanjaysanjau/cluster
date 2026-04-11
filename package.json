@@ -1,0 +1,13 @@
+{
+  "name": "cluster-worker-demo",
+  "version": "1.0.0",
+  "description": "Express app demonstrating Node.js cluster and worker_threads",
+  "main": "src/cluster.js",
+  "scripts": {
+    "start": "node src/cluster.js",
+    "dev": "node --watch src/cluster.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
