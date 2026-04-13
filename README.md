@@ -5,7 +5,7 @@ A simple Express app demonstrating two Node.js concurrency primitives:
 - **`cluster`** — forks one process per CPU core, all sharing port 4000
 - **`worker_threads`** — offloads CPU-heavy tasks to a separate V8 thread
 
-## Project Structure
+## Project Structure 
 
 ```
 ├── src/
