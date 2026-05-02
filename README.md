@@ -80,6 +80,18 @@ or
 | `fibonacci` | number n | Computes fibonacci(n) |
 | `prime` | number n | Finds largest prime below n |
 
+### `GET /worker/delay/:duration`
+Waits for the given duration inside a worker thread, then returns. The Express event loop stays free the entire time.
+
+**Supported formats:** `30s`, `1m`, `1m30s`
+
+**Response:**
+```json
+{ "type": "delay", "input": 60000, "result": "Waited 60000ms", "servedByPid": 12345 }
+```
+
+> **Tip to prove non-blocking:** Send `GET /worker/delay/10s` in one terminal and immediately `GET /` in another — the health check responds instantly while the delay is still running.
+
 ## How It Works
 
 ```
