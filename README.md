@@ -1,4 +1,4 @@
-# Node.js Cluster + Worker Threads — Express Demo
+# Node.js Cluster + Worker Threads Express Demo
 
 A simple Express app demonstrating two Node.js concurrency primitives:
 
