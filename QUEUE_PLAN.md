@@ -242,3 +242,4 @@ For this project, the recommended sub-pattern is **Poll a shared store** (combin
 | Medium-scale, self-hosted | Plan E — RabbitMQ | Dedicated broker, no cloud dependency |
 | Medium-to-large, Azure cloud | Plan E — Azure Service Bus | Fully managed, scales automatically |
 | High-scale, multi-consumer | Plan E — Azure Service Bus or RabbitMQ | Built-in delivery guarantees and retries |
+
