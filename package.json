@@ -5,7 +5,9 @@
   "main": "src/cluster.js",
   "scripts": {
     "start": "node src/cluster.js",
-    "dev": "node --watch src/cluster.js"
+    "dev": "node --watch src/cluster.js",
+    "start:queue": "node src/app.js",
+    "dev:queue": "node --watch src/app.js"
   },
   "dependencies": {
     "express": "^4.21.0"
